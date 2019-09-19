@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 18, 2019 at 07:32 PM
+-- Generation Time: Sep 19, 2019 at 03:47 AM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.8
 
@@ -30,6 +30,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
+  `fullname` text NOT NULL,
   `username` text NOT NULL,
   `email` text NOT NULL,
   `password` text NOT NULL
@@ -39,8 +40,8 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `username`, `email`, `password`) VALUES
-(1, 'admin', 'admin@admin.com', '21232f297a57a5a743894a0e4a801fc3');
+INSERT INTO `users` (`id`, `fullname`, `username`, `email`, `password`) VALUES
+(1, 'Administrator', 'admin', 'admin@admin.com', '21232f297a57a5a743894a0e4a801fc3');
 
 --
 -- Indexes for dumped tables

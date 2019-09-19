@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url('../img/background.png');
+  background-color: #cccccc;
+  color: #cccccc;
+}
+
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #5f9ea0;
+  text-align: center;
+  border: 1px solid #b0c4de;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+
+label {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #010b0e;
+}
+input[type='text'],
+input[type='password'] {
+  width: 200px;
+  padding: 12px 20px;
+
+  display: flex;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+}
+
+.error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.success {
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+form, .content {
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: left;
+  margin: 12px 0 6px 0;
+}
+
+img.avatar {
+  width: 60px;
+  border-radius: 20%;
+}
+
+.container {
+  padding: 10px;
+}
+
+span.psw {
+  float: left;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 40px;
+  }
+}
