@@ -1,5 +1,13 @@
 <?php
+
+// connect to database
+
+// Locally
+// $db = mysqli_connect('localhost', 'root', '', 'dreamdev');
+
 $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+
+// Production DB
 
 $server = $url["host"];
 $username = $url["user"];
