@@ -42,7 +42,7 @@ unset($_SESSION['success']);
 		<?php if (isset($_SESSION['username'])): ?>
 			<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
 
-			<div onmouseover ="typeWriter()">To get started, come <strong>Here</strong></div>
+			<div onmouseover ="typeWriter()">To get started, CLICK <strong>Here</strong></div>
 
 			<p id="note" style="color: cadetblue"></p>
 			
