@@ -10,7 +10,9 @@ body {
   background-color: #cccccc;
   color: #cccccc;
 }
-
+#logout{
+padding: 10px;
+background: green;}
 .header {
   width: 30%;
   margin: 50px auto 0px;
