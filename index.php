@@ -18,6 +18,7 @@ if (isset($_GET['logout'])) {
 <head>
 	<title>Home</title>
 	<link rel="stylesheet" href="assets/css/style.css">
+	
 </head>
 <body>
 	<div class="header">
@@ -40,9 +41,15 @@ unset($_SESSION['success']);
 		<!-- logged in user information -->
 		<?php if (isset($_SESSION['username'])): ?>
 			<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
-			<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
+
+			<div onmouseover ="typeWriter()">To get started, come <strong>Here</strong></div>
+
+			<p id="note" style="color: cadetblue"></p>
+			
+			<br>
+			<p> <a href="index.php?logout='1'" style="color: red;" id = "logout">logout</a> </p>
 		<?php endif?>
 	</div>
-
+<script src = "typewritter.js"></script>
 </body>
 </html>
