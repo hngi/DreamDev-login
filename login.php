@@ -35,7 +35,7 @@
 
   <div class="container" >
 	  <p>Not yet a member? <a href="signup.php">Sign up</a></p>
-	  <span class="psw"><a href="#">Forgot password?</a></span>
+	  <span class="psw"><a href="#forgot.html">Forgot password?</a></span>
   </div>
 </form>
 </body>
