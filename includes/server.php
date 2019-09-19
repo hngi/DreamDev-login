@@ -2,22 +2,16 @@
 	
 	// connect to database
 	// $db = mysqli_connect('localhost', 'root', '', 'dreamdev');
-	$cleardb_url      = parse_url(getenv("CLEARDB_DATABASE_URL"));
-	$cleardb_server   = $cleardb_url["us-cdbr-iron-east-02.cleardb.net"];
-	$cleardb_username = $cleardb_url["b916489ac9ce85"];
-	$cleardb_password = $cleardb_url["c55e02df"];
-	$cleardb_db       = substr($cleardb_url["heroku_6a8f30a1d0f6b34"],1);
-	
 	
 	$active_group = 'default';
 	$query_builder = TRUE;
 	
 	$db['default'] = array(
 		'dsn'    => '',
-		'hostname' => $cleardb_server,
-		'username' => $cleardb_username,
-		'password' => $cleardb_password,
-		'database' => $cleardb_db,
+		'hostname' => 'us-cdbr-iron-east-02.cleardb.net',
+		'username' => 'b916489ac9ce85',
+		'password' => 'c55e02df',
+		'database' => 'heroku_6a8f30a1d0f6b34',
 		'dbdriver' => 'mysqli',
 		'dbprefix' => '',
 		'pconnect' => FALSE,
