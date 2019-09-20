@@ -10,3 +10,4 @@ I @Daniel ufeli implemented signup functionality, added validations and restruct
 
 
 I samuel @Major on Slack @Samuel Major on WhatSapp and @CodePapi created javascript typewritter function to output "this login page is built by the dream team" on mouseover. I also modified the logout button
+I meduna femi @meduna on slack created forgot.html and style.css for a forgot password page for the project. 
